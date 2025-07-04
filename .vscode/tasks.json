@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AL: Download symbols",
+			"type": "shell",
+			"command": "alc",
+			"args": [
+				"/project:."
+			],
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
